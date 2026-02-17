@@ -1,4 +1,4 @@
-
+import numpy as np
 def cholesky_decomposition(A, *, jitter=0.0, check_sym=True):
     """
     Returns the lower-triangular Cholesky factor L such that A ≈ L @ L.T.
